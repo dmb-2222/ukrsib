@@ -277,7 +277,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 601px) {
   .cal-2__box--last--purpose {
     display: none;
   }
