@@ -277,7 +277,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (max-width: 401px) {
   .cal-2__box--last--purpose {
     display: none;
   }
@@ -364,85 +364,3 @@ textarea {
     padding-right: 2%;
   }
 }
-
-/* @media only screen and (-webkit-min-device-pixel-ratio: 4) and(device-width: 360px) {
-  body {
-    margin: 0px;
-    background-color: #fff;
-  }
-  header {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
-  header > a {
-    padding-left: 5%;
-  }
-  .col-1 {
-    width: 100%;
-    padding-bottom: 0;
-    background-color: #fff;
-  }
-  .col-2 {
-    width: 100%;
-  }
-  main {
-    background-color: #fff;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding-bottom: 0;
-  }
-  .col-1__context > a {
-    float: right;
-  }
-
-  .col-1__last,
-  .main__back {
-    display: none;
-    clear: left;
-  }
-
-  .main-container {
-    padding-top: 0;
-    width: 100%;
-  }
-
-  .main__information {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    margin-top: 0;
-  }
-  .col-1__context--h3h4 {
-    font-size: 20px;
-    display: inline-block;
-  }
-  .cal-2__purpose {
-    display: none;
-  }
-  .col-2__btn--another {
-    font-size: 10px;
-  }
-  .col-2__btn--own {
-    font-size: 10px;
-  }
-
-  .cal-2__submit--btn {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    width: 100%;
-    left: 0;
-    top: 20px;
-  }
-  .cal-2__box--last--purpose {
-    -webkit-box-shadow: 1px 1px 4px 1px #dad6d6;
-    box-shadow: 1px 1px 4px 1px #dad6d6;
-    padding: 2%;
-    margin-bottom: 40px;
-  }
-  .col-1__last--btnapply {
-    text-decoration: underline;
-    font-weight: 800;
-  }
-  .cal-2__account {
-    padding-right: 2%;
-  }
-} */
