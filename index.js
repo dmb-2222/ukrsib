@@ -14,3 +14,4 @@ function KeyCheck(event) {
     counter.innerHTML = textarea.value.length - 1;
   }
 }
+// https://dmb-2222.github.io/ukrsib/index.html

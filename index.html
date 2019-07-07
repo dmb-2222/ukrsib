@@ -23,8 +23,8 @@
             <div class="main__information">
               <div class="col-1">
                 <div class="col-1__context">
-                  <h3>Платіж у гривні</h3>
-                  <h4>№1604/008</h4>
+                  <h3 class="col-1__context--h3h4">Платіж у гривні</h3>
+                  <h4 class="col-1__context--h3h4">№1604/008</h4>
                   <p class="col-1__date">від 17.12.2016</p>
                   <a href="#">Обрати з шаблону</a>
                   <div class="col-1__last">
@@ -59,7 +59,6 @@
                     <h3>З рахунку</h3>
                     <div class="col-2__box--amount">
                       <p>
-                        
                         <span class="cal-2__account">26107550484700</span
                         >Поточный рахунок
                       </p>
@@ -85,12 +84,24 @@
                       <p class="cal-2__sum">Сумма</p>
                       <input type="text" value="1 400 000.00" name="sum" />
                       <span class="col-2__uah"> грн.</span>
-                      <p>Призначення</p>
-                      <div class="cal-2__textarea">
-                        <textarea name="textarea-comment"></textarea>
-                        <p class="col-2__counter--symbol">0</p>
+                      <div class="cal-2__purpose">
+                        <p>Призначення</p>
+                        <div class="cal-2__textarea">
+                          <textarea name="textarea-comment"></textarea>
+                          <p class="col-2__counter--symbol">0</p>
+                        </div>
                       </div>
-                      
+                      <div class="cal-2__box--last--purpose">
+                        <p class="col-1__last--purpose">Останнє призначення</p>
+                        <button type="submit" class="col-1__btnclose"></button>
+                        <p>
+                          Перерахування коштів на власній накопичувальний
+                          рахунок
+                        </p>
+                        <button type="submit" class="col-1__last--btnapply">
+                          застосувати
+                        </button>
+                      </div>
                       <button type="submit" class="cal-2__submit--btn">
                         Зберегти та підписат
                       </button>
