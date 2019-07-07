@@ -33,7 +33,7 @@ main {
   background-color: #fafafa;
   -webkit-box-shadow: inset 1px 1px 4px 1px #dad6d6;
   box-shadow: inset 1px 1px 4px 1px #dad6d6;
-  padding-bottom: 60px;
+  padding-bottom: 2%;
 }
 
 .main-container {
@@ -254,7 +254,7 @@ textarea {
   top: 30px;
 }
 
-@media (max-width: 1220px) {
+@media screen and (max-width: 1220px) {
   .col-1__last {
     width: 100%;
   }
@@ -263,19 +263,21 @@ textarea {
   }
 }
 
-@media (max-width: 786px) {
+@media screen and (max-width: 786px) {
   form p {
     display: block;
     width: 100%;
   }
-
   .col-2__box--amount {
     height: 80px;
     padding-left: 5%;
   }
+  .col-1{
+    padding-bottom: 35%;
+  }
 }
 
-@media (min-width: 401px) {
+@media screen and (min-width: 401px) {
   .cal-2__box--last--purpose {
     display: none;
   }
@@ -363,7 +365,7 @@ textarea {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
   body {
     margin: 0px;
     background-color: #fff;
