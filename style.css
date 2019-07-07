@@ -277,13 +277,13 @@ textarea {
   }
 }
 
-@media screen and (max-width: 401px) {
+@media screen and (min-width: 401px) {
   .cal-2__box--last--purpose {
     display: none;
   }
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   body {
     margin: 0px;
     background-color: #fff;
