@@ -365,7 +365,7 @@ textarea {
   }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 4) and (min-resolution: 192dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 4) and (device-width: 360px)  {
   body {
     margin: 0px;
     background-color: #fff;
